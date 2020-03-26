@@ -1,0 +1,148 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	padding: 10px;
+}
+
+i{
+	width: 20px;
+    height: auto;
+    margin-right: 5px;
+}
+
+body{
+	background-color: #F8F9F9
+}
+
+header{
+	width: 12%;
+	margin: 20px;
+}
+.inicio{
+	display: flex;
+    align-items: center;
+}
+
+.bar{
+	background-color: #3498DB;
+	color:white;
+	text-align: center;
+}
+
+.title2{
+	text-align: center;
+	margin-bottom:20px;
+	color:#F1C40F;
+}
+
+.main{
+	display: flex;
+	width: 85%;
+	margin: 0px;
+	margin-bottom: 10%;
+	line-height: 20px;
+	background: #fafafa;
+}
+
+.aside{
+	width: 18%;
+	margin: 30px;
+	line-height: 20px;
+	font-size: large;
+	font-style: oblique;
+}
+
+footer{
+	background-color: #000;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 20px;
+	width: 100%
+
+}
+footer p{
+	width: 60%;
+	color: #fff;
+	text-align: center;
+	padding-left: 20%;
+}
+h1{
+	text-align: center;
+	font-size: 35px;
+
+
+}
+
+h2{
+	text-align: center;
+}
+
+img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 20px;
+}
+
+header nav{
+	background:light gray;
+	color:blue; 
+}
+
+header, .main, .aside{
+	float: left;	
+	text-align: justify;
+}
+
+.title{
+	text-align: center;
+	margin: 20px;
+	background-color: #3498DB;
+	color: white;
+	width: 90%;
+    height: 40px;
+}
+
+a:link, a:visited, a:hover, a:active{
+	text-decoration: none;
+}
+
+ul li a{
+	padding: 5px;
+	margin: 5px;
+	color: grey;
+}
+
+ul li a:hover{
+	background-color: green;
+	color: white;
+}
+
+
+ul li a:active{
+	color: #fafafa;
+}
+
+.logo{
+	margin: 20px 20px;
+	width: 100px;
+}
+
+h2 a:hover{
+	background-color: green;
+	color: white;
+}
+
+div > p{
+	text-align: center;
+	font-size: 20px;
+	font-style: italic;
+}
+
